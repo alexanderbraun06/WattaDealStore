@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Watt a Deal - Online Store</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="titolo">
+        <h1>Watt a Deal - Piccoli e Grandi elettrodomestici a prezzi vantaggiosi</h1>
+        <div id="">
+            <form>
+                <h2>Registrati</h2>
+                <label for="nome">Nome</label>
+                </br>
+                <input type="text" id="nome" name="nome" />
+                </br>
+                <label for="cognome">Cognome</label>
+                </br>
+                <input type="text" id="cognome" name="cognome" />
+                </br>
+                <label for="datanascita">Data di Nascita</label>
+                </br>
+                <input type="date" id="datanascita" name="datanascita" />
+                </br>
+                <label for="indirizzo">Indirizzo di residenza</label>
+                </br>
+                <input type="text" id="indirizzo" name="indirizzo" />
+                </br>
+                <label for="email">E-mail</label>
+                </br>
+                <input type="email" id="email" name="email" />
+                </br>
+                <label for="password">Password</label>
+                </br>
+                <input type="password" id="password" name="password" />
+                </br>
+                <label for="confermaPassword">Conferma Password</label>
+                </br>
+                <input type="password" id="confermaPassword" name="confermaPassword" />
+
+                <button type="button" onclick="Registrati()">Registrati</button>
+            </form>
+
+
+        </div>
+        <div id="login">
+            <h2>Accedi</h2>
+            <label for="email">E-mail</label>
+            </br>
+            <input type="email" id="email" name="email" />
+            </br>
+            <label for="passwordlogin">Password</label>
+            </br>
+            <input type="password" id="passwordlogin" name="passwordlogin" />
+            </br>
+            <button type="button" onclick="Accedi()">Accedi</button>
+        </div>
+    </div>
+
+    <div id="tabellafasciabassa">
+        <table border="1px">
+            <tr>
+                <h1>Elettrodomestici di fascia bassa - EUR 300 o meno </h1>
+                <th>Produttore</th>
+                <th>Modello</th>
+                <th>Tipologia</th>
+                <th>Prezzo in euro</th>
+            </tr>
+        </table>
+
+        <div id="tabellafasciamedia>
+            <table border="1px">
+                <tr>
+                    <h1>Elettrodomestici di fascia media da EUR 301 a 899 </h1>
+                    <th>Produttore</th>
+                    <th>Modello</th>
+                    <th>Tipologia</th>
+                    <th>Prezzo in euro</th>
+                </tr>
+            </table>
+        </div>
+        <div id="tabellafasciaalta">
+            <table border="1px">
+                <tr>
+                    <h1>Elettrodomestici di fascia alta - sopra i EUR 900 </h1>
+                    <th>Produttore</th>
+                    <th>Modello</th>
+                    <th>Tipologia</th>
+                    <th>Prezzo in euro</th>
+                </tr>
+        </div>
+    </div>
+</body>
+</html>
